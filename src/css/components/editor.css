@@ -4,9 +4,9 @@
   background-color: #F5F5F5;
   padding: 20px;
   font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 16px;
   margin-top: 16px;
+  font-family: 'Fira Code', monospace;
 }
 
 .editor > p {

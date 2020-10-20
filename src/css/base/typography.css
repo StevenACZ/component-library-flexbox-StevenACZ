@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 .title {
   font-family: 'Roboto', sans-serif;
@@ -16,6 +18,10 @@
 }
 
 /* Headings */
+.headings__container {
+  font-family: 'Piazzolla', serif;
+}
+
 .headings__container > .h1 {
   font-weight: 600;
   font-size: 32px;
@@ -52,6 +58,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-bottom: 16px;
+  line-height: 24px;
 }
 
 .bold {
