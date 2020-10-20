@@ -1,19 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Component Library - Flexbox</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Component Library</title>
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
-
 <body>
-  <!--TODO-->
-  <!-- Tabs -->
-  <!-- List Items -->
-  <!-- Tab Group -->
-  <!-- Vertical List -->
-  <!-- Card -->
+  <header class="header">
+    <img class="header__img" src="./src/img/logo.png" alt="">
+  </header>
+  <main class="main">
+
+    <!-- Typography -->
+    <section class="section">
+      <h2 class="title">Typography</h2>
+
+      <!-- Headings -->
+      <section>
+        <p class="subtitle">Headings</p>
+
+        <div class="headings__container">
+          <h1 class="h1">h1. Eat, sleep, code, and repeat!</h1>
+          <h2 class="h2">h2. Eat, sleep, code, and repeat!</h2>
+          <h3 class="h3">h3. Eat, sleep, code, and repeat!</h3>
+          <h4 class="h4">h4. Eat, sleep, code, and repeat!</h4>
+          <h5 class="h5">h5. Eat, sleep, code, and repeat!</h5>
+          <h6 class="h6">h6. Eat, sleep, code, and repeat!</h6>
+        </div>
+  
+        <div class="editor">
+          <p> 
+            <span class="code--blue">&lth1</span> 
+            <span class="code--red">class=</span> 
+            <span class="code--orange">”h1”</span> 
+            <span class="code--blue">></span> 
+            <span class="code--grey">Eat, sleep, code, and repeat!</span>
+            <span class="code--blue">&lt/h1></span> 
+          </p>
+          <p> 
+            <span class="code--blue">&lth2</span> 
+            <span class="code--red">class=</span> 
+            <span class="code--orange">”h2”</span> 
+            <span class="code--blue">></span> 
+            <span class="code--grey">Eat, sleep, code, and repeat!</span>
+            <span class="code--blue">&lt/h2></span> 
+          </p>
+          <p> 
+            <span class="code--blue">&lth3</span> 
+            <span class="code--red">class=</span> 
+            <span class="code--orange">”h3”</span> 
+            <span class="code--blue">></span> 
+            <span class="code--grey">Eat, sleep, code, and repeat!</span>
+            <span class="code--blue">&lt/h3></span> 
+          </p>
+          <p> 
+            <span class="code--blue">&lth4</span> 
+            <span class="code--red">class=</span> 
+            <span class="code--orange">”h4”</span> 
+            <span class="code--blue">></span> 
+            <span class="code--grey">Eat, sleep, code, and repeat!</span>
+            <span class="code--blue">&lt/h4></span> 
+          </p>
+          <p> 
+            <span class="code--blue">&lth5</span> 
+            <span class="code--red">class=</span> 
+            <span class="code--orange">”h5”</span> 
+            <span class="code--blue">></span> 
+            <span class="code--grey">Eat, sleep, code, and repeat!</span>
+            <span class="code--blue">&lt/h5></span> 
+          </p>
+          <p> 
+            <span class="code--blue">&lth6</span> 
+            <span class="code--red">class=</span> 
+            <span class="code--orange">”h6”</span> 
+            <span class="code--blue">></span> 
+            <span class="code--grey">Eat, sleep, code, and repeat!</span>
+            <span class="code--blue">&lt/h6></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Paragraph -->
+      <section>
+        <p class="subtitle">Paragraph</p>
+
+        <p class="paragraph__p">
+          The best programs are written so that computing machines can perform them quickly and so that human beings can <span class="bold">understand them clearly.</span> A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.
+        </p>
+
+        <div class="editor">
+          <p> 
+            <span class="code--blue">&ltp></span> 
+            <span class="code--blue">&lt/p></span> 
+          </p>
+        </div>
+      </section>
+      
+      <!-- Quote -->
+      <section>
+        <p class="subtitle">Quote</p>
+        
+        <div class="quote__container">
+          <blockquote >
+            <p class="quote__p">
+              “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
+            </p>
+            <p class="quote__b">- Martin Fowler</p>
+          </blockquote>
+        </div>
+
+        <div class="editor">
+          <p> 
+            <span class="code--blue">&ltblockquote></span> 
+            <span class="code--blue">&lt/blockquote></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Colors -->
+      <section>
+        <p class="subtitle">Colors</p>
+
+        <div class="colors__container">
+          <div class="colors__item">
+            <div class="circle circle--blue"></div>
+            <span>blue #118AB2</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--green"></div>
+            <span>green #06D6A0</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--yellow"></div>
+            <span>yellow #118AB2</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--red"></div>
+            <span>red #FFD166</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--midnight"></div>
+            <span>midnight #EF476F</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--light"></div>
+            <span>light #073B4C</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--white"></div>
+            <span>white #F8F9FA</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--gray"></div>
+            <span>gray #FFFFFF</span>
+          </div>
+          <div class="colors__item">
+            <div class="circle circle--black"></div>
+            <span>black #888888</span>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+
+    <!-- Elements -->
+    <section class="section">
+      <h2 class="title">Elements</h2>
+
+      <!-- Base Button -->
+      <section>
+        <p class="subtitle">Base Button</p>
+
+        <button class="button button--icon">
+          <img src="./src/img/icons/dark-download-icon.png" alt="">
+          <span>Base Button</span>
+        </button>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Base Button --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--icon"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltimg</span>
+            <span class="code--red">src=</span> 
+            <span class="code--orange">"./img/icons/dark-download-icon.png"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>Base Button</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Button Types -->
+      <section>
+        <p class="subtitle">Button Types</p>
+
+        <div class="buttons__container">
+          <button class="button button--primary">Primary</button>
+          <button class="button button--secundary">Secundary</button>
+          <button class="button button--success">Success</button>
+          <button class="button button--warning">Warning</button>
+          <button class="button button--danger">Danger</button>
+          <button class="button button--transparent">Transparent</button>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Button Primary --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--primary"</span>
+            <span class="code--blue">></span>
+            <span>Primary</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button Secundary --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--secundary"</span>
+            <span class="code--blue">></span>
+            <span>Secundary</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button Success --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--success"</span>
+            <span class="code--blue">></span>
+            <span>Success</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button Warning --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--warning"</span>
+            <span class="code--blue">></span>
+            <span>Warning</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button Danger --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--danger"</span>
+            <span class="code--blue">></span>
+            <span>Danger</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button Transparent --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--transparent"</span>
+            <span class="code--blue">></span>
+            <span>Transparent</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Button Styles -->
+      <section>
+        <p class="subtitle">Button Styles</p>
+
+        <div class="buttons__container">
+          <button class="button button--primary">Primary</button>
+          <button class="button button--icon button--primary">
+            <img src="./src/img/icons/white-download-icon.png" alt="">
+            <span>With Icon</span>
+          </button>
+          <button class="button button--icon button--primary">
+            <img src="./src/img/icons/white-download-icon.png" alt="">
+          </button>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Button Primary --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--primary"</span>
+            <span class="code--blue">></span>
+            <span>Primary</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button With Icon --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--icon button--primary"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltimg</span>
+            <span class="code--red">src=</span>
+            <span class="code--orange">"./img/icons/white-download-icon.png"</span>
+            <span class="code--red">alt=</span>
+            <span class="code--orange">"#"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>With Icon</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Button Icon --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--icon button--primary"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltimg</span>
+            <span class="code--red">src=</span>
+            <span class="code--orange">"./img/icons/white-download-icon.png"</span>
+            <span class="code--red">alt=</span>
+            <span class="code--orange">"#"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Button Sizes -->
+      <section>
+        <p class="subtitle">Button Sizes</p>
+
+        <div class="buttons__container">
+          <button class="button button--primary">Primary</button>
+          <button class="button button--primary button--small">Small</button>
+          <button class="button button--primary button--large">Large</button>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Normal --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--primary"</span>
+            <span class="code--blue">></span>
+            <span>Primary</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Small --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--primary button--small"</span>
+            <span class="code--blue">></span>
+            <span>Small</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Large --></p>
+          <p> 
+            <span class="code--blue">&ltbutton</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"button button--primary button--large"</span>
+            <span class="code--blue">></span>
+            <span>Large</span>
+            <span class="code--blue">&lt/button></span> 
+          </p>
+        </div>
+      </section>
+
+      <!-- Images -->
+      <section>
+        <p class="subtitle">Images</p>
+
+        <div class="images__container">
+          <div class="image">
+            <span>100x100</span>
+          </div>
+          <div class="image image--circle">
+            <span>100x100</span>
+          </div>
+          <div class="image image--shadow">
+            <span>100x100</span>
+          </div>
+          <div class="image image--shadow image--circle">
+            <span>100x100</span>
+          </div>
+        </div>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Normal --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"image"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>100x100</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Circle --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"image image--circle"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>100x100</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Normal Shadow --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"image image--shadow"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>100x100</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+          <br>
+          <p class="code--green">&lt!-- Circle Shadow --></p>
+          <p> 
+            <span class="code--blue">&ltdiv</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"image image--circle image--shadow"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltspan></span>
+            <span>100x100</span>
+            <span class="code--blue">&lt/span></span>
+          </p>
+          <p>
+            <span class="code--blue">&lt/div></span> 
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <!-- Blocks -->
+    <section class="section">
+      <h2 class="title">Blocks</h2>
+
+      <!-- Banner -->
+      <section>
+        <p class="subtitle">Banner</p>
+
+        <section class="banner">
+          <div class="banner__hero">
+            <p class="banner__title">Full Stack Web Development</p>
+            <p class="banner__subtitle">
+              Become a better version of yourself in only 6 months.
+            </p>
+          </div>
+          
+          <button class="button button--success">Apply now</button>
+        </section>
+
+        <div class="editor">
+          <p class="code--green">&lt!-- Banner --></p>
+          <p> 
+            <span class="code--blue">&ltsection</span>
+            <span class="code--red">class=</span>
+            <span class="code--orange">"banner"</span>
+            <span class="code--blue">></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltdiv</span>  
+            <span class="code--red">class=</span>  
+            <span class="code--orange">"banner__hero"</span>  
+            <span class="code--blue">></span>  
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltp</span>
+            <span class="code--red">class=</span> 
+            <span class="code--orange">"banner__title"</span> 
+            <span class="code--blue">></span>
+            <span>Full Stack Web Development</span>
+            <span class="code--blue">&lt/p></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltp</span>
+            <span class="code--red">class=</span> 
+            <span class="code--orange">"banner__subtitle"</span> 
+            <span class="code--blue">></span>
+            <span>Become a better version of yourself in only 6 months.</span>
+            <span class="code--blue">&lt/p></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&lt/div></span>
+          </p>
+          <p>
+            <span class="code--blue">&nbsp&nbsp&nbsp&nbsp&ltbutton</span>  
+            <span class="code--red">class=</span>  
+            <span class="code--orange">"button button--success"</span>
+            <span class="code--blue">></span>  
+            <span>Apply now</span>
+            <span class="code--blue">&lt/button></span>  
+          </p>
+          <p>
+            <span class="code--blue">&lt/section></span> 
+          </p>
+        </div>
+      </section>
+    </section>
+  </main>
 </body>
 </html>
