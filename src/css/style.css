@@ -6,3 +6,7 @@
 @import './components/editor.css';
 @import './components/quote.css';
 @import './components/image.css';
+
+@import './pages/typography.css';
+@import './pages/elements.css';
+@import './pages/blocks.css';
