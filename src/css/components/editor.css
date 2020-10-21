@@ -1,6 +1,5 @@
 .editor {
-  width: 100%;
-  padding: 10px 0px;
+  max-width: 100%;
   background-color: #F5F5F5;
   padding: 20px;
   font-weight: 400;

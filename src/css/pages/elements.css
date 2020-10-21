@@ -38,6 +38,7 @@
 .buttons__container {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 .buttons__container > button {
   margin-right: 8px;
